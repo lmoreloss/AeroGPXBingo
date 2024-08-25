@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/hemi-head" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body class="noto-sans">
+  <div class="header">
+    <p>AERO GPX Bingo</p>
+  </div>
+  <div id="Difficulty">
+    <!-- <input type="button" value="Standard" onclick="setStandard()"/>
+    <input type="button" value="Expert" onclick="setExpert()"/>
+    <input type="button" value="Ace" onclick="setAce()"/> -->
+    <button onclick="setStandard()" class="test"><div>Standard</div></button>
+    <button onclick="setExpert()"  class="test"><div>Expert</div></button>
+    <button onclick="setAce()"  class="test"><div>Ace Pilot</div></button>
+    <br>
+    <p id="BingoLabel">Bingos: 0</p>
+  </div>
+  <div id="grid">
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
