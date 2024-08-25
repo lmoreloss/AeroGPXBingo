@@ -1,0 +1,198 @@
+.grid5 {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 2fr 2fr 2fr 2fr;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 2fr 2fr 2fr;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+
+/* .grid5 {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 2fr 2fr 2fr 2fr;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 2fr 2fr 2fr;
+  background-color: rgba(255, 255, 255, 0.5);
+} */
+
+.padding {
+  display: grid;
+  padding: 10%;
+  text-align: center;
+  align-items: center;
+  border: 2px solid black;
+  margin: 1px;
+}
+
+.padding:hover:not(.set) {
+  display: grid;
+  padding: 10%;
+  text-align: center;
+  align-items: center;
+  border: 2px solid black;
+  margin: 1px;
+  background-color: rgba(255, 94, 0, 0.3);
+}
+
+.set {
+  background-color: rgba(127, 255, 0, 0.7);
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+
+.bingo {
+  background-color: rgba(255, 105, 180, 0.7);
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+
+#Difficulty {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#Difficulty button{
+  font-family: 'Hemi Head', sans-serif;
+  font-size: 1.5rem;
+  height: fit-content;
+  transform: skew(-10deg);
+  box-shadow: 3px 3px rgba(0,0,0,0.7);
+  background: linear-gradient(to right, #00ba6d 50%, #b1b1ba 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition:all .1s linear;
+}
+
+#Difficulty button:hover{
+  font-family: 'Hemi Head', sans-serif;
+  font-size: 1.5rem;
+  height: fit-content;
+  transform: skew(-10deg);
+  box-shadow: 3px 3px rgba(0,0,0,0.7);
+  background-position: left bottom;
+}
+
+#Difficulty button div{
+  font-family: 'Hemi Head', sans-serif;
+  font-size: 1.5rem;
+  height: fit-content;
+  transform: skew(10deg);
+  color: #ffffff;
+  text-shadow: 2px 2px #2c2c2f;
+}
+
+/* .set {
+  background-color: rgba(127, 255, 0, 0.7);
+}
+
+.bingo {
+  background-color: rgba(255, 105, 180, 0.7);
+} */
+
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.header {
+  font-family: 'Hemi Head', sans-serif;
+  font-size: 3.3rem;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+
+}
+
+.title{
+  font-family: 'Hemi Head', sans-serif;
+  font-size: 1.5rem;
+  font-optical-sizing: auto;
+}
+
+.header p{
+  margin: 5%;
+}
+
+#BingoLabel {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  padding-left: 1%;
+  padding-right: 1%;
+  backdrop-filter: blur(10px);
+}
+
+:root {
+  --background: url("https://cdn.discordapp.com/attachments/550122630653673473/1276782729123598408/Sin_titulo.png?ex=66cac814&is=66c97694&hm=f361636a650c971f48416228b4ecf6729857d4b6c222c757fcf26d1467289b42&")
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-image: var(--background);
+  padding: 20px;
+  z-index: 0;
+}
+
+/* body {
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+  background-size: cover;
+  padding: 20px;
+  z-index: 1;
+} */
+
+
+/* body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: var(--background);
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  z-index: -1;
+} */
