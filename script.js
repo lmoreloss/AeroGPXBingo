@@ -97,7 +97,7 @@ function setStandard() { //Set Standard difficulty on the Bingo sheet
   grid.classList.remove("grid3");
   grid.classList.add("grid3");
   let body = document.body.style
-  body.setProperty('--background', 'url(https://cdn.discordapp.com/attachments/1274061247100354652/1274139178254336096/sac.png?ex=66c9bbd4&is=66c86a54&hm=b63cc3e8987a5845f94058a211c8f16662a8ae289bc89725fd09bfb77a36f3ac&)')
+  body.setProperty('--background', 'url(sac.png)')
 
   aux = JSON.parse(JSON.stringify(standard)); //Set Standard as the auxiliary array
   auxTitle = JSON.parse(JSON.stringify(standardTitle))
@@ -150,7 +150,7 @@ function setExpert() {
   grid.classList.remove("grid3");
   grid.classList.add("grid4");
   let body = document.body.style
-  body.setProperty('--background', 'url(https://cdn.discordapp.com/attachments/1274061247100354652/1274139177868464139/expert_pic.png?ex=66c9bbd4&is=66c86a54&hm=af31ac8a109e739c2afcd68c3ec35761f9f814a4adcc21a8e9fc95fca39de9f7&)')
+  body.setProperty('--background', 'url(expert_pic.png)')
   aux = JSON.parse(JSON.stringify(expert)); //Set Expert as the auxiliary array
   auxTitle = JSON.parse(JSON.stringify(expertTitle))
   let i = 0;
@@ -202,7 +202,7 @@ function setAce() {
   grid.classList.remove("grid3");
   grid.classList.add("grid5");
   let body = document.body.style
-  body.setProperty('--background', 'url(https://cdn.discordapp.com/attachments/1274061247100354652/1274139177293971556/ace_pic.png?ex=66c9bbd4&is=66c86a54&hm=d54954c6d655cf5327c41b964df6d527e16a79738e519ededecaea7798f64d8c&)')
+  body.setProperty('--background', 'url(ace_pic.png)')
   aux = JSON.parse(JSON.stringify(ace)) //Set Ace as the auxiliary array
   auxTitle = JSON.parse(JSON.stringify(aceTitle))
   let i = 0
